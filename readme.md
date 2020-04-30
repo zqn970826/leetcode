@@ -101,7 +101,7 @@ LLONG\_MIN = -9223372036854775808;
 
 ## 1. 链表
 
-经典技巧：快慢指针（双指针）
+经典技巧：快慢指针(双指针)
 
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
