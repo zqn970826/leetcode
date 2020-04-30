@@ -115,7 +115,13 @@ LLONG\_MIN = -9223372036854775808;
 ### 3.1 注意事项
 ### 3.1.1 数组大小
 末尾+'\0'，初始化时多加1
+
+[14. Longest Common Prefix (Easy)](https://leetcode.com/problems/longest-common-prefix/)
+
+[1309. Decrypt String from Alphabet to Integer Mapping (Easy)](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/submissions/)
+
 ### 3.2 字符串比较
+
 strcmp(str1, str2)  //字典序
 
 str1 = str2, return 0;
@@ -167,4 +173,4 @@ str1 < str2, return -;
 
 [389. Find the Difference](https://leetcode.com/problems/find-the-difference/)
 
-[476. Number Complement](https://leetcode.com/problems/number-complement/)https://leetcode.com/problems/number-complement/)
+[476. Number Complement](https://leetcode.com/problems/number-complement/)
