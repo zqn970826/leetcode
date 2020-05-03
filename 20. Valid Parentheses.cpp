@@ -1,10 +1,8 @@
+// Easy
 // 栈：括号匹配
 bool isValid(char * s){
-    int n = strlen(s);
+    int n = strlen(s), j = 0;
 	char str[n+1];  // 栈
-	//memset(str, '0', n);
-
-	int j = 0;
 	for (int i = 0; i <= n; i++)
 	{
 		if (s[i] == '(')
@@ -27,8 +25,7 @@ bool isValid(char * s){
 			}
 			else
 			{
-				j = 1;
-				break;
+                return false;
 			}
 		}
 		else if (s[i] == ']')
@@ -39,8 +36,7 @@ bool isValid(char * s){
 			}
 			else
 			{
-				j = 1;
-				break;
+                return false;
 			}
 		}
 		else if (s[i] == '}')
@@ -51,17 +47,9 @@ bool isValid(char * s){
 			}
 			else
 			{
-				j = 1;
-				break;
+                return false;
 			}
 		}
 	}
-	if(j != 0)
-	{
-        return false;
-	}
-	else
-	{
-        return true;
-	}
+    return 0 == j;
 }

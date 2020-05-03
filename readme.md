@@ -77,6 +77,8 @@
 
 [292. Nim Game](https://leetcode.com/problems/nim-game/) // 巴什博奕
 
+[319. Bulb Switcher (Medium)](https://leetcode.com/problems/bulb-switcher/submissions/) // DP
+
 
 
 ### 9.2 最大最小值
@@ -97,19 +99,35 @@ LLONG\_MIN = -9223372036854775808;
 
 
 
+### 9.3 经典数学题
+
+[172. Factorial Trailing Zeroes (Easy)](https://leetcode.com/problems/factorial-trailing-zeroes/submissions/) // 阶乘
+
+
+
+
+
 # 数据结构
 
 ## 1. 链表
 
 经典技巧：快慢指针(双指针)
 
-[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+[141. Linked List Cycle (Easy)](https://leetcode.com/problems/linked-list-cycle/) // 循环链表
 
-[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/submissions/)
+[142. Linked List Cycle II (Medium)](https://leetcode.com/problems/linked-list-cycle-ii/) // 循环链表找头
+
+[206. Reverse Linked List (Easy)](https://leetcode.com/problems/reverse-linked-list/submissions/) // 链表逆置
 
 [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/submissions/) // 奇偶链表
 
 ## 2. 栈和队列
+
+应用：括号匹配等
+
+[20. Valid Parentheses (Easy)](https://leetcode.com/problems/valid-parentheses/description/)
+
+
 
 ## 3. 字符串
 ### 3.1 注意事项
