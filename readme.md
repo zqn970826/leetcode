@@ -15,6 +15,8 @@
 
 第k小
 
+[215. Kth Largest Element in an Array (Medium)](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+
 ### 1.3 快速幂
 
 [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
@@ -112,6 +114,8 @@ LLONG\_MIN = -9223372036854775808;
 ## 1. 链表
 
 经典技巧：快慢指针(双指针)
+
+[19. Remove Nth Node From End of List (Medium)](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) // 删除倒数第n个结点
 
 [141. Linked List Cycle (Easy)](https://leetcode.com/problems/linked-list-cycle/) // 循环链表
 
