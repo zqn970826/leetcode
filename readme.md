@@ -23,11 +23,7 @@
 
 
 
-## 2. 递归算法
-## 3. 排列组合
-## 4. 高精度算法
-## 5. 贪心
-## 6. 双指针
+## 2. 双指针
 
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
@@ -55,15 +51,15 @@
 
 
 
-## 7. 穷举算法
+## 3. 穷举算法
 
-### 7.1 追赶法
+### 3.1 追赶法
 
 [POJ_1650. Integer Approximation](http://poj.org/problem?id=1650)
 
 
 
-## 8. 动态规划
+## 4. 动态规划
 
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
@@ -71,9 +67,9 @@
 
 
 
-## 9. 数学方法
+## 5. 数学方法
 
-### 9.1 数学运算（归纳总结）
+### 5.1 数学运算（归纳总结）
 
 [258. Add Digits](https://leetcode.com/problems/add-digits/)
 
@@ -83,7 +79,7 @@
 
 
 
-### 9.2 最大最小值
+### 5.2 最大最小值
 
 INT32\_MAX = 2147483647;
 
@@ -101,13 +97,19 @@ LLONG\_MIN = -9223372036854775808;
 
 
 
-### 9.3 经典数学题
+### 5.3 经典数学题
 
 [172. Factorial Trailing Zeroes (Easy)](https://leetcode.com/problems/factorial-trailing-zeroes/submissions/) // 阶乘
 
 
 
+## 6. 排序
 
+### 6.1 计数排序
+
+[41. First Missing Positive (Hard)](https://leetcode.com/problems/first-missing-positive/)
+
+[448. Find All Numbers Disappeared in an Array (Easy)](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 
 # 数据结构
 
