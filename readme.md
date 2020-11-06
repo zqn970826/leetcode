@@ -81,7 +81,11 @@
 
 [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)
 
+## 最长递增子序列
 
+[1143. Longest Common Subsequence (Medium)](https://leetcode.com/problems/longest-common-subsequence/) // DP\[][]
+
+[583. Delete Operation for Two Strings (Medium)](https://leetcode.com/problems/delete-operation-for-two-strings/) //DP\[][]
 
 # 数学方法
 
@@ -115,7 +119,17 @@ LLONG\_MIN = -9223372036854775808;
 
 ## 经典数学题
 
+[204. Count Primes (Easy)](https://leetcode.com/problems/count-primes/) // 素数
+
 [172. Factorial Trailing Zeroes (Easy)](https://leetcode.com/problems/factorial-trailing-zeroes/submissions/) // 阶乘
+
+// 最小公约数
+
+```c
+int gcd(int a, int b) {
+    return b == 0 ? a : gcd(b, a % b);
+}
+```
 
 
 
@@ -126,8 +140,6 @@ LLONG\_MIN = -9223372036854775808;
 [41. First Missing Positive (Hard)](https://leetcode.com/problems/first-missing-positive/)
 
 [448. Find All Numbers Disappeared in an Array (Easy)](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
-
-
 
 ***
 
@@ -142,6 +154,8 @@ LLONG\_MIN = -9223372036854775808;
 [142. Linked List Cycle II (Medium)](https://leetcode.com/problems/linked-list-cycle-ii/) // 循环链表找头
 
 [206. Reverse Linked List (Easy)](https://leetcode.com/problems/reverse-linked-list/submissions/) // 链表逆置
+
+[237. Delete Node in a Linked List (Easy)](https://leetcode.com/problems/delete-node-in-a-linked-list/) // 删除链表指定节点
 
 [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/submissions/) // 奇偶链表
 
